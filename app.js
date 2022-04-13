@@ -4,7 +4,7 @@ const path = require("path");
 
 app.use(express.static("./public"));
 
-app.listen(process.env.PORT || 3030, ()=> 
+app.listen(process.env.PORT || 3030, function()=> 
     console.log("esta funcionando http://localhost:3030")
 );
 
